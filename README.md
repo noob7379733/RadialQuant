@@ -10,5 +10,7 @@ This code was specifically designed for use on thresholded, binary masks derived
 This repository contains 3 MATLAB files, meant to be used in the following order:
 
 RadialQuantRegister: This code registers all histomorphometric feature masks to a single fixed image pre-selected by the user.
+
 RadialQuantPrimary: This code determines the center of the bone. The amount of bone (or periosteum, depending on which you use) in each radial segment is collected in countPixels and is expressed in pixel units.
+
 RadialQuantSecondary: This code determines the amount of a particular feature (i.e. periosteal area, axon length, bone surface, etc.) in each radial segment. The amount is collected in countPixels and is expressed in pixel units.
